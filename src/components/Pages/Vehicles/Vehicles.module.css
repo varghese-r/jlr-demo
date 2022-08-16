@@ -1,0 +1,62 @@
+.vehicles {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.vehicle__container {
+    width: 20%;
+    height: 40vh;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightblue;
+    padding: 10px;
+    box-shadow: 2px 4px 4px rgba(138, 43, 226, 0.4);
+    border-radius: 10px;
+}
+
+.vehicles__carImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.vehicles__carImg > img {
+    width: 100%;
+}
+
+.vehicles__carTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.vehicles__bookNow {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(138, 43, 226, 0.5);
+    border: none;
+    width: 30%;
+}
+
+.vehicles__bookNow:hover {
+    cursor: pointer;
+}
+
+.deposit__confirmation {
+    width: 50%;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(144, 238, 144, 0.5);
+    border: 1px green solid;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 4px rgba(0, 0, 139, 0.5);
+}

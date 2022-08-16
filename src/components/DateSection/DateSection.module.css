@@ -1,0 +1,66 @@
+.customerBox {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.customerBox>a {
+    background-color: rgba(137, 225, 225, 0.5);
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.customerBox>a:visited {
+    color: black;
+}
+
+.customerBox>p {
+    margin-top: 3%;
+    font-size: 1.5rem;
+}
+
+.customerBox>input {
+    display: inline-block;
+    margin-top: 2%;
+    height: 2rem;
+    width: 10rem;
+}
+
+.customerBox>button {
+    display: inline-block;
+    width: 10rem;
+    margin-top: 1%;
+    padding: 10px;
+    background-color: rgb(100, 205, 100);
+    border: none;
+    font-size: 1.2rem;
+}
+
+.customerBox>button:hover {
+    cursor: pointer;
+}
+
+.confirmPI {
+    width: 50%;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: 0.5px solid green;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px lightgreen;
+}
+
+.after_testDrive {
+    padding: 20px;
+}
+
+.after_testDrive > button {
+    margin-left: 20px;
+    padding: 10px;
+}

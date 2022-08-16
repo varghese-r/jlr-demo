@@ -1,0 +1,35 @@
+.gallery__items {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.gallery__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:30%;
+}
+
+.gallery__item > img {
+    width: 100%;
+}
+
+.gallery__item > h2 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+.gallery__item > h6 {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.gallery__item > h4 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-top: 45px;
+}

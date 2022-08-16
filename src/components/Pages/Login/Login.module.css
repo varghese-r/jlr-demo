@@ -1,0 +1,45 @@
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.login__form {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    width: 30vw;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    border: 1px solid lightgrey;
+    justify-content: center;
+    border-radius: 2vh;
+    box-shadow: 2px 2px 2px rgb(100, 149, 237);
+}
+
+.login__form > label,
+.login__form > input {
+    margin-bottom: 20px;
+}
+
+.login__form>input {
+    height: 1.5rem;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.login__form > button {
+    width: 10vw;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(100, 149, 237);
+    border: none;
+}
+
+.login__form > button:hover {
+    cursor: pointer;
+}

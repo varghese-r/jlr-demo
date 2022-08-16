@@ -1,0 +1,62 @@
+.register__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    scroll-behavior: auto;
+    padding: 20px;
+}
+.register__container {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30rem;
+    background-color: rgb(232, 236, 236);
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register__container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__container label {
+    font-size: 1.5rem;
+    margin: 20px 0 10px 0;
+}
+
+.register__container input {
+    height: 2rem;
+    padding: 10px;
+    font-size: 1.3rem;
+    font: inherit;
+}
+
+.register__signup {
+    background-color: #0B121C;
+    color: white;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.register__signup__disabled {
+    background-color: #ccc;
+}
+
+.register__container p {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.register__container span {
+    font-weight: bolder;
+    text-decoration: underline;
+    /* color: green; */
+    font-size: 1.2rem;
+}
+
